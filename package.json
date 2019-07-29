@@ -1,6 +1,6 @@
 {
   "name": "vena-test-component-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vena Component Library",
   "main": "index.js",
   "scripts": {
