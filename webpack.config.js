@@ -1,10 +1,12 @@
-const path = reuire("path");
+const path = require("path");
 
 module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "index.js"
+    filename: "index.js",
+    library: "vena-test-component-library",
+    libraryTarget: "umd"
   },
   module: {
     rules: [

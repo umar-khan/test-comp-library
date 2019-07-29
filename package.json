@@ -1,12 +1,19 @@
 {
   "name": "vena-test-component-library",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Vena Component Library",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "repository": {
     "type": "git",
