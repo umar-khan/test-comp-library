@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.vena.vpn:ukhan/component-library.git"
+    "url": "git+ssh://git@github.vena.vpn:ukhan/component-library.git"
   },
   "author": "",
   "license": "ISC",
