@@ -1,6 +1,6 @@
 {
   "name": "vena-test-component-library",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vena Component Library",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git@github.vena.vpn:ukhan/component-library.git"
+    "url": "https://github.com/umar-khan/test-comp-library.git"
   },
   "author": "",
   "license": "ISC",
