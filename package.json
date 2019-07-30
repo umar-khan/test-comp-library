@@ -1,6 +1,6 @@
 {
-  "name": "vena-test-component-library-delete",
-  "version": "0.0.7",
+  "name": "vena-component-library-to-delete",
+  "version": "0.1.0",
   "description": "Vena Component Library",
   "main": "dist/index.js",
   "scripts": {

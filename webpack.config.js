@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
-    library: "vena-test-component-library-delete",
+    library: "vena-component-library-to-delete",
     libraryTarget: "umd"
   },
   externals: [
