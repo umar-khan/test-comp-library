@@ -120,6 +120,9 @@ function FlatButton({
     case "danger":
       colorClass = classes.danger;
       break;
+    case "stuff":
+      colorClass = "bb";
+      break;
     default:
       colorClass = classes.primary;
       break;
