@@ -1,13 +1,13 @@
 {
-  "name": "vena-test-component-library",
-  "version": "0.0.6",
+  "name": "vena-test-component-library-delete",
+  "version": "0.0.7",
   "description": "Vena Component Library",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build": "webpack"
+    "build-storybook": "build-storybook"
   },
   "babel": {
     "presets": [
@@ -21,10 +21,16 @@
   },
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^1.4.0",
+    "@material-ui/icons": "2.0.1",
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
@@ -37,9 +43,5 @@
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
-  "dependencies": {
-    "@material-ui/core": "^1.4.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  }
+  "dependencies": {}
 }
